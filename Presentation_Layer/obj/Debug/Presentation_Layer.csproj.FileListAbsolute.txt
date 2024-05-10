@@ -1,0 +1,10 @@
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\bin\Debug\Presentation_Layer.exe.config
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\bin\Debug\Presentation_Layer.exe
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\bin\Debug\Presentation_Layer.pdb
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.exe
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.pdb
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.LoginPage.resources
