@@ -8,3 +8,4 @@ C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\S
 C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.exe
 C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.pdb
 C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.LoginPage.resources
+C:\Users\Lenovo\Desktop\6th semester\OBJECT ORIENTED PROGRAMMING 2 [L]\Project\Self_Service_Store\Presentation_Layer\obj\Debug\Presentation_Layer.RegisterPage.resources
