@@ -31,12 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginPage));
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.EmailTextBox = new System.Windows.Forms.TextBox();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.SigninButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.RegisterPageButton = new System.Windows.Forms.Button();
+            this.RoleSelectBox = new System.Windows.Forms.ComboBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -58,76 +59,90 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(434, 192);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(447, 214);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(368, 1);
             this.flowLayoutPanel1.TabIndex = 4;
             // 
-            // textBox1
+            // PasswordTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(434, 227);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(328, 42);
-            this.textBox1.TabIndex = 7;
+            this.PasswordTextBox.Location = new System.Drawing.Point(447, 249);
+            this.PasswordTextBox.Multiline = true;
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.Size = new System.Drawing.Size(328, 42);
+            this.PasswordTextBox.TabIndex = 7;
             // 
-            // textBox2
+            // EmailTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(434, 160);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(328, 42);
-            this.textBox2.TabIndex = 8;
+            this.EmailTextBox.Location = new System.Drawing.Point(447, 182);
+            this.EmailTextBox.Multiline = true;
+            this.EmailTextBox.Name = "EmailTextBox";
+            this.EmailTextBox.Size = new System.Drawing.Size(328, 42);
+            this.EmailTextBox.TabIndex = 8;
             // 
-            // button1
+            // ExitButton
             // 
-            this.button1.BackColor = System.Drawing.Color.Khaki;
-            this.button1.Location = new System.Drawing.Point(396, 315);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 33);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "BACK";
-            this.button1.UseVisualStyleBackColor = false;
+            this.ExitButton.BackColor = System.Drawing.Color.Khaki;
+            this.ExitButton.Location = new System.Drawing.Point(409, 337);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(95, 33);
+            this.ExitButton.TabIndex = 9;
+            this.ExitButton.Text = "Exit";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // button2
+            // SigninButton
             // 
-            this.button2.BackColor = System.Drawing.Color.Khaki;
-            this.button2.Location = new System.Drawing.Point(667, 315);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 33);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "SIGN IN";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.SigninButton.BackColor = System.Drawing.Color.Khaki;
+            this.SigninButton.Location = new System.Drawing.Point(680, 337);
+            this.SigninButton.Name = "SigninButton";
+            this.SigninButton.Size = new System.Drawing.Size(95, 33);
+            this.SigninButton.TabIndex = 10;
+            this.SigninButton.Text = "SIGN IN";
+            this.SigninButton.UseVisualStyleBackColor = false;
+            this.SigninButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.SpringGreen;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label2.Font = new System.Drawing.Font("Century Gothic", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(421, 404);
+            this.label2.Location = new System.Drawing.Point(417, 440);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(230, 26);
+            this.label2.Size = new System.Drawing.Size(233, 26);
             this.label2.TabIndex = 11;
             this.label2.Text = "Doesn\'t have an account?";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button3
+            // RegisterPageButton
             // 
-            this.button3.BackColor = System.Drawing.Color.SpringGreen;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(648, 404);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 26);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Register here";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.RegisterPageButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RegisterPageButton.Font = new System.Drawing.Font("Century Gothic", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterPageButton.Location = new System.Drawing.Point(644, 440);
+            this.RegisterPageButton.Name = "RegisterPageButton";
+            this.RegisterPageButton.Size = new System.Drawing.Size(114, 26);
+            this.RegisterPageButton.TabIndex = 12;
+            this.RegisterPageButton.Text = "Register here";
+            this.RegisterPageButton.UseVisualStyleBackColor = false;
+            this.RegisterPageButton.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // RoleSelectBox
+            // 
+            this.RoleSelectBox.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoleSelectBox.FormattingEnabled = true;
+            this.RoleSelectBox.Items.AddRange(new object[] {
+            "Admin",
+            "Customer"});
+            this.RoleSelectBox.Location = new System.Drawing.Point(621, 127);
+            this.RoleSelectBox.Name = "RoleSelectBox";
+            this.RoleSelectBox.Size = new System.Drawing.Size(154, 29);
+            this.RoleSelectBox.TabIndex = 13;
+            this.RoleSelectBox.Text = "Select Role";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(384, 227);
+            this.pictureBox3.Location = new System.Drawing.Point(397, 249);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(48, 42);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -137,7 +152,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(384, 160);
+            this.pictureBox2.Location = new System.Drawing.Point(397, 182);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 42);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -154,6 +169,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // LoginPage
             // 
@@ -161,19 +177,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(804, 488);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.RoleSelectBox);
+            this.Controls.Add(this.RegisterPageButton);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SigninButton);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.EmailTextBox);
+            this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "LoginPage";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "LoginPage";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -189,12 +207,13 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.TextBox EmailTextBox;
+        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button SigninButton;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button RegisterPageButton;
+        private System.Windows.Forms.ComboBox RoleSelectBox;
     }
 }
 

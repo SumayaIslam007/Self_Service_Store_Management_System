@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Presentation_Layer.Admin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,6 +18,7 @@ namespace Presentation_Layer
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new LoginPage());
+            /*Application.Run(new Splash());*/
         }
     }
 }
