@@ -1,0 +1,1 @@
+The Self Service Store Management System is a C#-based desktop application designed to streamline the management of self-service stores. It follows a multi-layer architecture, ensuring efficient handling of inventory, transactions, and user interactions. The system includes business logic, data access, and a user-friendly presentation layer.
